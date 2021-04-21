@@ -1,0 +1,255 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+ 
+ 
+/*==========  Mobile First Method  ==========*/
+ 
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+ 
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+
+
+	.slider-controls .owl-thumb-item{
+	    padding: 35px 20px!important;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+
+	.sm-text-center > .line-bottom:after{
+		left: 0;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		position: absolute;
+		right: 0;
+	}
+	
+	.d-sm:before{
+		background: rgba(0,0,0,0.6)!important;
+	}
+	.l-sm:before{
+		background-color: rgba(255,255,255,0.8)!important;
+	}
+	
+	.section-title{
+		padding-left: 0;
+	}
+	
+	
+	.slider-controls .owl-thumb-item i{
+		float: none!important;
+		margin-right:0 !important;
+		display: block!important;
+		margin-bottom: 10px;
+	}
+	
+	.slider-controls .owl-thumb-item{
+	    text-align: center!important;
+	}
+	.hosting_pricing{
+		left: 32%;	
+	}
+	.single_tab_desc h2{
+		font-size: 32px!important;
+	}
+
+	.single_tab_desc h3{
+		font-size: 18px;
+	}
+	.single_tab_desc p{
+		padding-top: 0!important;
+		margin-bottom: 0!important;
+	}
+	
+	.single_tab_desc ul li {
+	    margin: 0!important;
+	}
+	.single_service_tab {
+	    padding: 35px 0;
+	    min-height: auto;
+	}
+				
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+	
+	.hosting_pricing {
+	    display: none;
+	}
+	
+	.tab_nav_wrapper ul li {
+	    width: 100%;
+	}
+	.tab_nav_wrapper {
+	    margin-top: -15px;
+	}
+	
+	.single_service_tab {
+	    min-height: auto;
+	    padding: 10px 0;
+	}
+	.single_service_tab .service_icon {
+	    width: 26px;
+	    height: 26px;
+	    font-size: 26px;
+	}
+	.single_service_tab .service_icon i{
+		font-size: 26px;
+		line-height: 26px;
+	}
+	
+	
+	.call-to-action div {
+	 	border: none!important;
+	    border-bottom: 1px solid #008cc8!important;
+	}
+	.call-to-action{
+		margin-bottom: 0!important;
+		width: 100%;
+	}
+	
+	.footer, .footer nav{
+		text-align: center;
+	}	
+	.service-status .state {
+		margin-bottom: 20px;
+	}
+	
+	section>.container{
+		padding: 30px 15px;
+	}
+	
+	.service-title{
+		text-align: center;
+	}
+	.bg-theme-colored-2 .currentStatus .state{
+		width: 20%!important;	
+	}
+	
+	
+	
+	.home_slider .item img {
+	      min-height: 500px;
+	}
+	
+	
+	
+}
+
+@media only screen and (max-width : 670px) {
+	.bg-form .radioHolder label {
+			width: 100%!important;
+	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 479px) {
+	.top-nav-icon{
+		display: none;
+	}
+	.top-nav{
+		width: 100%;
+	}
+	.top-nav li{
+		width: 25%;
+	}
+	.top-nav li a{
+		padding: 8px auto;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.single_tab_desc ul li {
+	    margin: 5px 0!important;
+	}
+	.single_tab_desc ul {
+	    margin-top: 0!important;
+	    padding-top: 0!important;
+	}
+	
+	
+	
+	.feature_section2 .twoboxes{
+		font-size: 12px!important;
+	}
+	
+	.feature_section2 .twoboxes i {
+		font-size: 50px!important;
+		margin-bottom: 10px;
+	}
+	.feature_section2 .twoboxes strong {
+		font-size: 21px!important;
+		line-height: 21px!important;
+	}
+	.feature_section2 .twoboxes strong em {
+		font-size: 13px!important;
+	}
+	
+	.feature_section2 .btn-primary{
+		    padding: 10px 25px!important;
+	}
+	
+	
+	
+	.exs-fullwidth {
+	    width: 100%;
+	}
+	.tab_nav_wrapper ul li {
+	    width: 50%;
+	}
+	
+	
+	
+	.single_tab_desc h2{
+			font-size: 26px!important;
+		}
+	
+		.single_tab_desc h3{
+			font-size: 18px;
+			margin-top: 20px!important;
+		}
+		.single_tab_desc p{
+			padding-top: 0!important;
+			margin-bottom: 0!important;
+		}
+	
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 360px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 319px) {
+}

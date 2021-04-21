@@ -1,0 +1,103 @@
+/* MEGAMENU LIST
+================================*/
+.navigation-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  .crumina-button:after {
+  	content: ''!important;
+  	width: auto!important;
+  }
+  .badge{
+  	font-size: 8px!important;
+  	margin-left:5px;
+  	
+  }
+
+  @media (min-width: $landscape-width) {
+	[class^=navigation-col]:last-of-type & {
+	  padding: 0;
+	}
+	.hideit{
+		display:none!important ;
+	}
+	.navigation-list-subheading {   	font-size: 13px; padding: 20px 0 10px;  } 
+	
+  }
+
+  > li {
+	width: 100%;
+	margin: 0;
+
+	&:last-child {
+	  margin-bottom: 20px;
+	}
+
+	> a {
+	  padding: 8px 30px;
+	  @include flex();
+	  @include flexAlignCenterVertically();
+	  position: relative;
+	  font-size: 12px;
+	  text-decoration: none;
+	  @include transition(color .3s, background .3s);
+	  font-weight: 500;
+	  color: var(--white-color);
+
+	  [class^=navigation-col]:last-of-type & {
+		border-right: none;
+	  }
+	  
+
+	  @media (min-width: $landscape-width) {
+		padding: $navigation-list-link-padding;
+		color: var(--nav-link-color);
+		font-size: $navigation-list-link-font-size;
+	  }
+	}
+
+	&:not(.navigation-list-heading) > a:hover {
+	  color: var(--primary-accent-color-nav);
+
+	  &:after {
+		opacity: 1;
+	  }
+	}
+  }
+}
+
+.navigation-list .navigation-list-heading {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 15px 30px;
+  color: var(--white-color);
+
+  @media (min-width: $landscape-width) {
+	padding: 30px 10px 20px 30px;
+	color: var(--white-color);
+	font-size: 18px;
+  }
+	
+  .crumina-button {
+	  	display: inline;
+	  	padding: 7px 20px!important;
+	  	width: auto!important;
+	  	border: 2px solid;
+  }
+  .crumina-button:hover {
+	  	opacity: .7;
+  }
+  
+ 	
+	
+  > a {
+	padding: $navigation-list-heading-padding !important;;
+
+	&:hover {
+	  color: $navigation-list-heading-color !important;
+	  background-color: transparent !important;
+	}
+  }
+}

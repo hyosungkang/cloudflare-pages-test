@@ -1,0 +1,853 @@
+@font-face {
+      font-family: 'fontello';
+      src: url('../../font/fontello.eot?56973324');
+      src: url('../../font/fontello.eot?56973324#iefix') format('embedded-opentype'),
+           url('../../font/fontello.woff?56973324') format('woff'),
+           url('../../font/fontello.ttf?56973324') format('truetype'),
+           url('../../font/fontello.svg?56973324#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+     
+     
+    .nice-icon
+    {
+      font-family: "fontello";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+      display: inline-block;
+      text-decoration: inherit;
+      text-align: center;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1em;
+	  margin: 0;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    .icon-lock:before {
+        margin: 0!important;
+    }
+    
+    .slider.affix {
+		margin-top: 106px;
+	}
+
+.sc_button {
+	color: #262937;
+	background-color: #2cffc8;
+	//background-color: #e1ff19!important;
+	font-size: 1rem;
+    font-weight: 500;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: none;
+	border-radius: 50px;
+}
+
+.yellowBtn {
+	background: #e1ff19!important;
+}
+
+.landing-price {
+	font-size: 45px;
+	margin-left: -7px;
+    color: rgb(225, 255, 25)!important;
+	i {
+		font-size: 60px;
+	}
+	span {
+		font-size: 20px;
+		letter-spacing: 2px;
+	}
+	strong {
+		color: rgb(225, 255, 25)!important;
+	}
+	span.symbol {
+		vertical-align: top;
+		line-height: 65px;
+		letter-spacing: -1px;
+	}
+	span.price {
+		font-size: 45px;
+		font-weight: 600;
+		letter-spacing: -1px;
+		
+	}
+}
+
+#threeBox {
+	p {
+		font-size: 16px;
+		color:#686d80;
+	}
+	h2 {
+		line-height: 1.2;
+	}
+}
+
+.backgroundBox {
+		background-color:#2d3547;
+		transition: 0.3s;
+		padding: 3.7rem 4.1rem 4.5rem !important;
+		
+		opacity: 1;
+		h2 {
+			line-height: 1.2;
+		}
+		ul {
+			color: #fff;
+			margin: 20px 0!important;
+			li {
+				padding-bottom: 1rem;
+				line-height: 1.5em;
+				list-style-type: none;
+				
+			}
+			li:before {
+			    color: #e1ff19;
+			    border-color: #e1ff19;
+				content: '\f058';
+				font-size: 20px;
+				font-family: "fontawesome";
+				padding-right: 15px;
+				
+			}
+		}
+}
+
+.bb_Landing {
+	i {
+		color: #e1ff19;
+		font-size: 65px;
+	}
+	.service-icon-box {
+		p{
+			opacity: .7;
+		}
+	}
+}
+
+.backgroundBox:hover {
+		transition: 0.3s;
+		background:#2d3547!important;
+		background-image:url();
+}		
+
+.item_price {
+	font-size: 35px;
+    color: rgb(225, 255, 25)!important;
+	.item_price_before {
+		font-weight:600;
+		font-size: 25px;
+		margin-right: 10px;
+	}
+	.item_price_value {
+		font-weight:600;
+		font-size: 35px;
+	}
+	
+	.item_price_after {
+		font-weight: 400;
+		font-size: 18px;
+		
+	}
+	.item_price_decimals {
+		font-weight: 400;
+		line-height: 50px;
+		font-size: 18px;
+		vertical-align: top;
+	}
+	span {
+		padding: 0;
+		margin: 0;
+	}
+}
+.slider.affix{margin-top:106px;}
+.container-fluid.affix{margin-top:106px; position: relative;}
+.inner-header.affix{margin-top:106px; position: relative;}
+.searchTest.affix{margin-top:106px; position: relative;}
+
+@media only screen and (max-width: 767px) {		
+	#menubar .navbar-nav li a {
+	    line-height: 25px;
+	}
+	#menubar .navbar-nav li a span {
+		line-height: 25px;
+	}
+	#menubar .navbar-toggle {
+		margin: 35px 15px 35px 0;
+	}
+	#menubar .navbar-nav li.dropdown .dropdown-menu li a {
+		line-height: 18px;	
+	}
+}
+.entry-content, .text-container {
+	ol, ul {
+		list-style: disc;
+		margin: 0 0 20px 20px;
+	}
+}
+
+
+.blockquote-wrapper {
+   display: flex;
+   //height: 100vh;
+   padding: 0 20px;
+}
+
+/* Blockquote main style */
+.blockquote {
+    position: relative;
+    font-family: 'Barlow Condensed', sans-serif;
+    max-width: 620px;
+    margin: 0 auto;
+    align-self: center;
+}
+
+/* Blockquote header */
+.blockquote h1 {
+    font-family: TradeGothicLT-BoldCondTwenty,HelveticaNeue-CondensedBold,"Franklin Gothic Medium",sans-serif;
+    position: relative; /* for pseudos */
+    color: #2d3547;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.1;
+    margin: 0;
+    border: 2px solid #009ee1;
+    //border: solid 2px;
+    border-radius:20px;
+    padding: 35px;
+}
+
+/* Blockquote right double quotes */
+.blockquote h1:after {
+    content:"";
+    position: absolute;
+    border: 2px solid #009ee1;
+    border-radius: 0 50px 0 0;
+    width: 60px;
+    height: 60px;
+    bottom: -60px;
+    left: 50px;
+    border-bottom: none;
+    border-left: none;
+    z-index: 3; 
+}
+
+.blockquote h1:before {
+    content:"";
+    position: absolute;
+    width: 80px;
+    border: 6px solid #fff;
+    bottom: -3px;
+    left: 50px;
+    z-index: 2;
+}
+.quote__text {
+    font-size: 23.8px;
+    font-size: 1.7rem;
+    font-weight: 400;
+    font-family: "Franklin Gothic Medium",sans-serif;
+    font-feature-settings: 'kern';
+    -webkit-font-kerning: normal;
+    font-kerning: normal;
+    line-height: 1.1;
+    position: relative;
+}
+.quote {
+    border-left: 10px solid #2d3547;
+    padding-left: 3.42857rem;
+	color: #2d3547;
+}
+
+.horizontalQuote {
+    border-top: 10px solid #2d3547;
+	border-bottom: 10px solid #2d3547;
+	border-left: none;
+	color: #2d3547;
+}
+
+
+.quote footer{
+    margin-top: 30px;
+}
+.quote__text {
+    font-size: 2.2rem;
+	font-weight: 600;
+}
+.quote__text:before {
+    position: absolute;
+    left: -.6em;
+    content: '\201C';
+}
+
+/* increase header size after 600px */
+@media all and (min-width: 600px) {
+    .blockquote h1 {
+        font-size: 1.7rem;
+        line-height: 1.4;
+   }
+
+}
+
+/* Blockquote subheader */
+.blockquote h4 {
+    position: relative;
+    color: #ccc;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+    padding-top: 15px;
+    z-index: 1;
+    margin-left:150px;
+    padding-left:12px;
+}
+
+ 
+.blockquote h4:first-letter {
+  margin-left:-12px;
+}
+
+
+.aboutSocial .social-icons.icon-md a {
+    font-size: 30px;
+    height: 75px;
+    line-height: 75px;
+    width: 75px;
+}
+
+
+
+/*—microsoft—*/
+/* DIRTY Responsive pricing table CSS */
+
+/* 
+- make mobile switch sticky
+*/
+#micro365 ul {
+  display:flex;
+  top:0px;
+  z-index:10;
+}
+#micro365 li {
+  list-style:none;
+  flex:1;
+}
+#micro365 li:last-child {
+  border-right:1px solid #DDD;
+}
+#micro365 button {
+  width:100%;
+  border: 1px solid #DDD;
+  border-right:0;
+  border-top:0;
+  line-height: 20px;
+  padding: 10px;
+  background:#FFF;
+  font-size:14px;
+  font-weight:normal;
+  height:60px;
+  color:#999;
+}
+#micro365 li.active button {
+  background:#F5F5F5;
+  font-weight:bold;
+  color:#000;
+}
+
+.lightest {
+	color: #ddd;
+}
+table { border-collapse:collapse; table-layout:fixed; width:100%; }
+th { background:#F5F5F5; display:none; }
+td, th {
+  height:53px
+}
+td,th { border:1px solid #DDD; padding:10px; }
+td,th {
+  text-align:left;
+}
+
+tr td {
+	padding: 20px 15px!important;
+}
+.clear td{
+	border: none;
+}
+td+td, th+th {
+  text-align:center;
+  display:none;
+}
+td.default {
+  display:table-cell;
+}
+.bg-purple {
+  border-top:3px solid #A32362;
+}
+.bg-blue {
+  border-top:3px solid #0097CF;
+}
+.sep {
+  background:#F5F5F5;
+  font-weight:bold;
+}
+.txt-l { font-size:36px; font-weight:bold; line-height: 20px; color: #2d3547; }
+.txt-top { position:relative; top:-14px; left:-2px;}
+.tick { font-size:18px; color:#2CA01C; }
+.hideit {
+  border:0;
+  background:none;
+}
+
+
+#microsoft i{
+	font-size: 24px;
+}
+#microsoft .feature{
+	font-weight: bold;
+	font-size: 15px;
+	color: #333!important;
+}
+#microsoft .feature span{
+	display: block;
+	padding-left: 30px;
+}
+
+#microsoft .feature span:first-child{
+	margin-bottom: -25px;
+	padding-left: 0;
+
+}
+
+#microsoft .feature span I{
+	font-size: 16px!important;
+}
+
+#microsoft .feature a{
+	font-weight: bold;
+	color: #333;
+}
+
+#microsoft .feature a:hover{
+	color: #009ee1;
+}
+
+
+#microsoft .featureSub{
+	font-size: 12px;
+	color: #565656;
+}
+
+#microsoft tr.featureSub:nth-child(odd){
+	background: #f7f7f7;
+}
+
+.featureSub i {
+	font-size: 16px!important;
+}
+
+tr.productBox td.prodWrap:first-child{
+	background: #fff;
+}
+
+tr.productBox td.prodWrap{
+	padding: 0 2px;
+}
+tr.productBox td.prodWrap .btn{
+	margin-top: 20px;
+}
+tr.productBox td{
+	padding: 0 2px!important;
+}
+
+tr.productBox td.prodWrap div{
+	background: #f7f7f7;
+	padding: 15px 10px;
+}
+tr.productBox td.prodWrap .user{
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 16px;
+	display: block;
+}
+tr.productBox td.prodWrap .gst{
+	font-size: 10px;
+	display: block;
+}
+
+
+
+
+#microsoft td {
+	border: none!important;
+}
+#microsoft .featureSub td:first-child {
+	padding-left: 45px!important;
+}
+
+#microsoft .action {
+	clear: both;
+	display: block;
+}
+#microsoft .description {
+	height: 110px;
+	display: block;
+	font-size: 12px;
+}
+
+
+#microsoft .title {
+	height: 70px;
+	font-weight: bold;
+	display: block;
+	color: #2d3547;
+	line-height: 24px;
+	font-size: 18px;
+	margin-top: 15px;
+}
+
+#microsoft tr {
+	border-top: 1px solid #333;
+}
+#microsoft tr:last-child{
+	border-top: none;
+}
+#microsoft tr:last-child td {
+	border-top: 1px solid #333!important;
+	padding-top: 20px;
+}
+#microsoft tr:first-child {
+	border: none;
+}
+
+.ow-icon::before {
+	width: 20px!important;
+}
+span.popular {
+	background: #009ee1;
+	color: #fff;
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	font-weight: bold;
+}
+span.appsOnly {
+	border: 1px solid #009ee1;
+	color: #009ee1;
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	font-weight: bold;
+}
+span.empty {
+	background: #fff;
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	
+}
+
+
+.microIcon {
+		display: block!important;
+		margin-top: 10px;
+		overflow: hidden;
+		min-height: 120px;
+}
+.microIcon li{
+	display: block;
+	float: left;
+	width: 33.3333%;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    text-align: center;
+	line-height: 12px;
+	border: none!important;
+	font-size: 8px;
+}
+.enterprise ul.microIcon {
+		min-height: 0;
+}
+.ow-icon {
+	display: block;
+    width: 32px;
+	margin: auto;
+}
+
+
+.ic-msaccess::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/9c/2ee98c.svg)
+}
+
+.ic-msazureinformationprotection::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/b5/8c980b.svg)
+}
+
+.ic-msbookings::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/cc/a54b78.svg)
+}
+
+.ic-msconditionalaccess::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/7b/9afc68.svg)
+}
+
+.ic-mscustomermanager::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/d2/428757.svg)
+}
+
+.ic-msdefender::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/bd/25dd56.svg)
+}
+
+.ic-msdelve::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/b3/04a06a.svg)
+}
+
+.ic-msexcel::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/3f/e5fedc.svg)
+}
+
+.ic-msexchange::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/42/45a960.svg)
+}
+
+.ic-msflow::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/6d/0f4a09.svg)
+}
+
+.ic-msforms::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/36/c07240.svg)
+}
+
+.ic-msinfopath::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/bd/1567a1.svg)
+}
+
+.ic-msintune::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/c8/9eb584.svg)
+}
+
+.ic-msinvoicing::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/2b/0f0a25.svg)
+}
+
+.ic-mslens::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/93/d159ac.svg)
+}
+
+.ic-msmileiq::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/37/47970e.svg)
+}
+
+.ic-msmyanalytics::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/4e/54cfec.svg)
+}
+
+.ic-msoffice::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/c6/8a1f00.svg)
+}
+
+.ic-msonedrive::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/f1/693c70.svg)
+}
+
+.ic-msonenote::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/d0/e0ac9e.svg)
+}
+
+.ic-msoutlook::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/2f/33e52d.svg)
+}
+
+.ic-msoutlookcalendar::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/7f/12db03.svg)
+}
+
+.ic-msplanner::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/7f/a513ed.svg)
+}
+
+.ic-mspowerapps::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/5f/4b6798.svg)
+}
+
+.ic-mspowerautomate::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/6d/0f4a09.svg)
+}
+
+.ic-mspowerbi::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/c8/80ff9a.svg)
+}
+
+.ic-mspowerbipro::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/c8/80ff9a.svg)
+}
+
+.ic-mspowerpoint::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/24/c165a0.svg)
+}
+
+.ic-msproject::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/ed/266d86.svg)
+}
+
+.ic-mspublisher::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/e2/337aae.svg)
+}
+
+.ic-msremote::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/4d/724952.svg)
+}
+
+.ic-mssharepoint::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/8b/203ea2.svg)
+}
+
+.ic-msskype::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/8c/2a6d14.svg)
+}
+
+.ic-msskypeforbusiness::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/5b/1780f0.svg)
+}
+
+.ic-msstaffhub::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/cf/7a9b73.svg)
+}
+
+.ic-msstream::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/98/dea254.svg)
+}
+
+.ic-mssway::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/3f/7b96f7.svg)
+}
+
+.ic-msteams::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/24/b4ded9.svg)
+}
+
+.ic-mstodo::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/ef/8bbe85.svg)
+}
+
+.ic-msvisio::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/d1/f2e376.svg)
+}
+
+.ic-mswindowsvirtualdesktop::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/be/cceaec.svg)
+}
+
+.ic-msword::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/53/add273.svg)
+}
+
+.ic-msworkplaceanalytics::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/34/77e413.svg)
+}
+
+.ic-msyammer::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/e3/8609c0.svg)
+}
+
+.ic-msschooldatasync::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/1f/4bc4db.svg)
+}
+
+.ic-msgroupme::before{
+	content: url(//www.microsoft.com/onerfstatics/marketingsites-wcus-prod/sc/7a/c4eb70.svg)
+}
+
+@media (max-width: 992px) {
+  #microsoft .description {
+		height: 220px;
+	}
+	#microsoft .title {
+	height: 90px;
+	}
+}
+
+
+@media (min-width: 768px) {
+.modal-dialog {
+    width: 600px;
+    margin: 10% auto 0!important;
+}
+}
+
+
+@media (max-width: 767px) {
+  #microsoft .description {
+		height: 150px;
+	}
+	#microsoft .title {
+		height: 90px;
+	}
+	
+	
+  
+}
+@media (min-width: 640px) {
+  #micro365 ul.microsoftBtns {
+    display:none;
+  }
+  td,th {
+    display:table-cell !important;
+  }
+  td+td, th+th {
+    width: auto;
+  }
+  
+}
+@media (max-width: 640px) {
+	td.hideit {
+		display: none!important;
+	}
+	td.prodWrap {
+		width: 201%!important;
+		border: none;
+	}
+	tr.productBox td.default {
+		display: inline-table;
+	}
+	#microsoft .description {
+		height: 100px!important;
+	}
+	#microsoft .title {
+		height: 50px!important;
+	} 
+	.ow-icon {
+		display: block;
+		width: 64px;
+		margin: auto;
+	}	
+	tr.productBox td.prodWrap div{
+		background: #fff;
+  }
+}
+
+.embed-container {
+		position: relative;
+		padding-bottom: 56.25%;
+		height: 0;
+		overflow: hidden;
+		max-width: 100%;
+		}
+		
+		.embed-container iframe, .embed-container object, .embed-container embed {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+.onFormSubmittedFeedback{
+    height: 270px!important;
+}

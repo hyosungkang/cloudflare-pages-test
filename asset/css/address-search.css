@@ -1,0 +1,71 @@
+.order {
+	    margin: 0;
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    left: 0;
+	    position: fixed;
+	    z-index: 100;
+	    overflow-y: scroll;
+	}
+	
+	.order-holder {
+	    display: table;
+	    min-height: 100%;
+		width: 80%;
+	    margin: auto;
+	}
+	.voyager-address-search .address-search-results li#address-search-selected {
+	    background: #eee!important;
+	}
+	
+	.voyager-address-search .address-search-searchbox>input {
+		padding: 1.024rem 1.875rem!important;
+	    transition: all .3s ease;
+	    font-size: 16px!important;
+	    border-radius: 50px;
+	    border: none;
+	    width: 100%;
+	    outline: none;
+	    font-weight: 500;
+	    height: 55px;
+		line-height: 55px;
+	}
+	.price-tag {
+	    width: 180px;
+	    padding-top: 45px!important;
+	    height: 180px;
+	    box-shadow: 0 5px 5px rgb(0 0 0 / 25%);
+		border-radius: 50%;
+	    padding-top: 24px;
+	    position: relative;
+	    right: 50px;
+	    text-align: center;
+		float: right;
+	    top: 20px;
+	    z-index: 0;
+	}
+	.price-tag span{
+		font-size: 26px!important;
+	}
+	
+	.address-search-results {
+		margin-top: 5px;
+		border-radius: 10px;
+		overflow: hidden;
+	}
+	.address-search-warning {
+		margin-bottom: 5px;
+		border-radius: 25px;
+	}
+	.voyager-address-search .address-search-searchbox>.address-search-close-button {
+	    display: inline-block;
+	    position: absolute;
+	    right: 5px;
+	    margin: auto;
+	    z-index: 3;
+	    width: 3em;
+	    padding: 1.2em;
+	    opacity: .3;
+	}

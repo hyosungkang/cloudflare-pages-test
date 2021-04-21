@@ -1,0 +1,33 @@
+backend:
+    name: gitlab
+    repo: is/voyager-www
+    branch: master
+    auth_type: implicit
+    app_id: 0cbdc7a44090044a6b2c5cbbefcd2bbb6b69cfce1ec8a5d087a51af3c0d9fc73
+    api_root: https://gitlab.vygr.net/api/v4
+    base_url: https://gitlab.vygr.net
+    auth_endpoint: oauth/authorize
+
+publish_mode: editorial_workflow
+
+media_folder: "voyager-www/src/static/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "voyager-www/src/content/blog"
+    create: true
+    slug: "{{slug}}"
+    summary: "[{{date | date('YYYY-MM-DD')}}] {{title}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      - {label: "Feature", name: "feature", widget: "boolean", default: false}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Author", name: "author", widget: "hidden", default: "VoyagerNZ"} 
+      - {label: "Categories", name: "categories", widget: "select", multiple: true, options: ['Important', 'Broadband', 'Entertainment', 'Voice', 'Article', 'Media', 'Technology', 'Client Stories', 'Voyager News', 'Innovation']}
+      - {label: "Type", name: "type", widget: "hidden", default: "post"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Body", name: "body", widget: "markdown"}

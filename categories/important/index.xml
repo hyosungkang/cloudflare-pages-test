@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Important on Voyager Internet Ltd.</title>
+    <link>/categories/important/</link>
+    <description>Recent content in Important on Voyager Internet Ltd.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 22 Feb 2018 11:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/important/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IMPORTANT: Phone scammers posing as Voyager to access bank details</title>
+      <link>/blog/important-phone-scammers-posing-as-voyager-to-access-bank-details/</link>
+      <pubDate>Thu, 22 Feb 2018 11:00:00 +0000</pubDate>
+      
+      <guid>/blog/important-phone-scammers-posing-as-voyager-to-access-bank-details/</guid>
+      <description>We’ve received notification that some of our customers are receiving phone calls from scammers pretending to be calling from Voyager.</description>
+    </item>
+    
+  </channel>
+</rss>

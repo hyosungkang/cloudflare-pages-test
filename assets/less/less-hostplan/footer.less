@@ -1,0 +1,141 @@
+/*
+ * Footer.less
+ * -----------------------------------------------
+*/
+
+.footer {
+	background: @white-fa;
+	font-size: 12px;
+
+	 a {
+		color: #fff;
+		&:focus,
+		&:hover,
+		&:active {
+			color: #4ac7e9;
+		}
+	}
+	
+	p{
+		line-height: 24px;
+	}
+	.widget {
+		.widget-title {
+			margin-top: 0px;
+		}
+	}
+	
+	a:before {
+	    content: "\f054";
+	    font-family: 'Font Awesome 5 Free';
+	    color: #4ac7e9;
+	    font-size: 12px;
+	    font-weight: bold;
+	    margin-right: 10px;
+	}
+
+
+	.social-icons a:before {
+	    content: "";
+	    margin: 0;
+	}
+
+	.widget.dark {
+		.quick-contact-form {
+			button {
+				border-color: @black-333;
+				color: lighten(@black, 56.30%);
+
+				&:hover {
+					background-color: @gray-lighter;
+					border-color: @gray-lighter;
+					color: @black-333;
+				}
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	
+	.subscribe-form{
+		margin-bottom: 35px;
+		input[type="email"] {
+		    border: medium none;
+		    -webkit-border-radius: 3px 0 0 3px;
+		    -moz-border-radius: 3px 0 0 3px;
+		    -ms-border-radius: 3px 0 0 3px;
+		    -o-border-radius: 3px 0 0 3px;
+		    border-radius: 3px 0 0 3px;
+		    color: #565656;
+		    height: 44px!important;
+		    padding-left: 10px;
+		    width: 100%;
+		}
+		input[type="submit"] {
+			background: #008cc8;
+		    color: #ffffff;
+		    border: medium none;
+		    -webkit-border-radius: 0 3px 3px 0;
+		    -moz-border-radius: 0 3px 3px 0;
+		    -ms-border-radius: 0 3px 3px 0;
+		    -o-border-radius: 0 3px 3px 0;
+		    border-radius: 0 3px 3px 0;
+		    font-size: 16px;
+		    height: 44px;
+		    width: 44px;
+		    padding: 0;
+		    vertical-align: middle;
+		}
+		.input-group>.input-group-button {
+		    width: 1%;
+		    vertical-align: top;
+		}
+		.input-group>.input, .input-group>.input-group-button {
+		    display: table-cell;
+		}
+	}
+	
+	
+	
+}
+
+
+
+
+.footer-bottom {
+	//border-top: 1px solid #243142;
+	
+	p{
+		line-height: 40px;
+		color: #4f4f4f;
+	}
+	nav {
+	    text-align: right;
+	}
+	ul {
+	    li {
+	        list-style: none;
+	        display: inline-block;
+	        border-left: 1px solid #323437;
+	        a{
+	        	
+	        	height: 40px;
+	        	line-height: 40px;
+	        	display: block;
+	        	padding: 0 13px;
+	        	color: #999;
+	        }
+	        a:before {
+	            content: "";
+	            margin: 0;
+	        }	        
+	    }
+	    li:last-child {
+	        border-right: 1px solid #323437;
+	    }
+	}
+	
+}

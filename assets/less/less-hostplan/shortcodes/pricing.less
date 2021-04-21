@@ -1,0 +1,177 @@
+/*
+ * Shortcode: pricing.less
+ * -----------------------------------------------
+*/
+.pricing-table {
+	margin-bottom: 30px;
+	position: relative;
+	.table-price {
+		color: @black-111;
+		font-size: 45px;
+
+		span {
+			font-size: 13px;
+			vertical-align: middle;
+		}
+	}
+
+	&.featured {
+		border: 1px solid @black-111;
+	}
+
+	.table-type {
+		display: inline;
+	}
+
+	.btn-signup {
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.table-list {
+		list-style: outside none none;
+		padding: 10px 0 10px 20px;
+
+		li {
+			border-bottom: 0;
+			font-size: 14px;
+			font-family: 'Open Sans', sans-serif;
+			padding: 10px 0;
+
+			i {
+			  	margin-right: 8px;
+			}
+    		&:nth-child(2n+1) {
+              background: #f8f8f8 none repeat scroll 0 0;
+              border-bottom: 1px solid #eee;
+              border-top: 1px solid #eee;
+            }
+		}
+		p{
+			padding: 30px 30px 0 30px; 
+			font-size: 12px;
+			margin-bottom: 0;
+		}
+	}
+
+	.package-type {
+		span {
+			position: relative;
+			padding-left: 15px;
+			margin-left: 10px;
+			
+			&::after {
+				background: #2d915b;
+				content: "";
+				height: 20px;
+				left: -20px;
+				position: absolute;
+				top: 11px;
+				width: 20px;
+			}
+		}
+	}
+}
+.package-icon {
+  color: #fff;
+  font-size: 60px;
+  opacity: 0.15;
+  position: absolute;
+  right: 15px;
+  top: -8px;
+}
+.price .currency {
+    vertical-align: super;
+}
+
+
+/* Table Specification */
+.specification tr td {
+  background: #fff none repeat scroll 0 0;
+  border-right: 1px solid #ddd;
+  padding: 20px 24px !important;
+  text-align: center;
+}
+.specification tr:last-child {
+  border-bottom: 1px solid #ddd;
+}
+.specification tr td:first-child {
+  border-left: 1px solid #ddd;
+  color: #333;
+  text-align: left;
+}
+.specification tr:nth-child(2n) td {
+  background: #f7f8fa none repeat scroll 0 0;
+}
+.specification tr td:first-child {
+  font-weight: 800;
+}
+.specification tr:first-child td {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+/* Table Domanin Prices */
+.domain-price-table tr td {
+  background: #fff none repeat scroll 0 0;
+  border-right: 1px solid #ddd;
+  padding: 16px 24px !important;
+  text-align: center;
+}
+.domain-price-table tr:last-child {
+  border-bottom: 1px solid #ddd;
+}
+.domain-price-table tr td:first-child {
+  border-left: 1px solid #ddd;
+  color: #333;
+  text-align: left;
+}
+.domain-price-table tr:nth-child(2n) td {
+  background: #f7f8fa none repeat scroll 0 0;
+}
+.domain-price-table tr td:first-child {
+  font-size: 18px;
+  font-weight: 800;
+}
+.domain-price-table tr:first-child td {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+/* Pricing Tag */
+.price-tag {
+  border-radius: 50%;
+  height: 124px;
+  padding-top: 24px;
+  position: relative;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 124px;
+  z-index: 0;
+	p {
+	  color: #fff;
+	  font-size: 16px;
+	  line-height: 30px;
+	  margin: 0;
+	  text-transform: capitalize;
+	  	span {
+		  display: block;
+		  font-size: 28px;
+		  font-weight: 700;
+		  line-height: 34px;
+		  margin: 0;
+		  text-transform: lowercase;
+		  	em {
+			  font-size: 15px;
+			  font-style: normal;
+			  font-weight: 300;
+			  vertical-align: top;
+			}
+		}
+	}
+}

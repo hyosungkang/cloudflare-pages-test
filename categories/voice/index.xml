@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Voice on Voyager Internet Ltd.</title>
+    <link>/categories/voice/</link>
+    <description>Recent content in Voice on Voyager Internet Ltd.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 04 Aug 2020 23:43:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/voice/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Which smart speakers work best in NZ?</title>
+      <link>/blog/which-smart-speakers-work-best-in-nz/</link>
+      <pubDate>Tue, 04 Aug 2020 23:43:00 +0000</pubDate>
+      
+      <guid>/blog/which-smart-speakers-work-best-in-nz/</guid>
+      <description>Currently the Google Nest Mini is widely considered the most capable and functional entry level smart speaker officially available in New Zealand.</description>
+    </item>
+    
+    <item>
+      <title>How to call Australia from New Zealand</title>
+      <link>/blog/how-to-call-australia-from-new-zealand/</link>
+      <pubDate>Mon, 27 Jul 2020 00:07:00 +0000</pubDate>
+      
+      <guid>/blog/how-to-call-australia-from-new-zealand/</guid>
+      <description>While phoning international numbers is second nature to many of us, it can be a confusing process to those who have rarely phoned overseas before.</description>
+    </item>
+    
+    <item>
+      <title>Gaming lounge powers up business with Voyager fibre broadband</title>
+      <link>/blog/gaming-lounge-powers-up-business-with-voyager-fibre-broadband/</link>
+      <pubDate>Tue, 22 Oct 2019 22:52:00 +0000</pubDate>
+      
+      <guid>/blog/gaming-lounge-powers-up-business-with-voyager-fibre-broadband/</guid>
+      <description>Kiwi business owner Callum Jennings is encouraging more New Zealand businesses to make the switch to fibre broadband after experiencing a “monumental increase in speed, significantly lower latency, and greater connection stability” at his own gaming lounge in Auckland.</description>
+    </item>
+    
+    <item>
+      <title>Is the end nigh for copper phone lines? Don’t lose your voice – consider VoIP for business</title>
+      <link>/blog/is-the-end-nigh-for-copper-phone-lines-dont-lose-your-voice-consider-voip-for-business/</link>
+      <pubDate>Tue, 30 Jul 2019 15:24:00 +0000</pubDate>
+      
+      <guid>/blog/is-the-end-nigh-for-copper-phone-lines-dont-lose-your-voice-consider-voip-for-business/</guid>
+      <description>With the successful rollout of Ultra Fast Broadband (UFB) across the country, fibre is becoming accessible to more and more New Zealanders.</description>
+    </item>
+    
+    <item>
+      <title>Fibre broadband for business - differences and advantages over DSL</title>
+      <link>/blog/fibre-broadband-for-business-differences-and-advantages-over-dsl/</link>
+      <pubDate>Tue, 30 Jul 2019 15:19:00 +0000</pubDate>
+      
+      <guid>/blog/fibre-broadband-for-business-differences-and-advantages-over-dsl/</guid>
+      <description>New Zealand has some of the fastest broadband in the world, as indicated by a 2019 study.</description>
+    </item>
+    
+  </channel>
+</rss>
